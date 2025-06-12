@@ -1,0 +1,206 @@
+baseURL = "https://blog.shankarajayaabadi.co.id/"
+languageCode = "id"
+title = "Blog Inspirasi Desain Interior Plafon dan Dinding"
+theme = "saeseen-hugo"
+summaryLength = 25
+
+[pagination]
+  pagerSize = 6
+
+[permalinks]
+  post = "/:slug/"
+  page = "/:slug/"
+  category = "/:slug/"
+
+[params]
+  # Site-wide settings
+  meta_description = "Blog inspirasi desain interior plafon dan dinding, tips renovasi, ide kreatif, serta solusi modern untuk memperindah hunian dan ruang usaha Anda."
+  viewport = "width=device-width, initial-scale=1.0"
+  fontawesome = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+  logo = "/images/logo/Shankara-logo120x80.png"
+  logo_amp = "/images/logo/Shankara-logo512x512.png"
+  footer_logo = "/images/logo/Shankara-logo120x80-putih.png"
+  favicon = "/images/logo/Shankara-logo512x512.png"
+  featured_image = "/images/admin/featured-image.png"
+  author = "Redaksi Blog Shankara"
+  telepon = "//+6281279947777"
+  whatsapp = "//api.whatsapp.com/send?phone=6281279947777&text=*Halo blog.shankarajayaabadi.co.id*%20%3A"
+  enableWhatApps = true
+  enableTelepon = true
+  tocMinWordCount = 300
+  tableOfContent = "Daftar Isi:"
+  geo_latitude = -3.800440
+  geo_longitude = 102.265541
+  opening_hours = "Mo-Sa 08:00-17:00"
+
+  # Schema settings
+  keywords = ["desain interior plafon", "inspirasi dinding", "tips renovasi rumah", "plafon modern", "wall panel", "ide desain ruang"]
+  base_price = 85000
+  price_range = 35000
+  free_consultation = true
+  service_types = [
+    "Inspirasi Desain Plafon & Dinding",
+    "Tips Renovasi Interior",
+    "Review Produk Plafon & Wall Panel",
+    "Panduan Memilih Material Interior",
+    "Solusi Desain Modern & Minimalis"
+  ]
+  categories = ["Inspirasi Plafon", "Inspirasi Dinding", "Tips Renovasi", "Review Produk"]
+  payment_methods = ["Transfer Bank", "Bayar Bertahap", "DP 40%", "Cash on Delivery"]
+  cancellation_policies = [
+    "Pembatalan artikel dapat dilakukan sebelum publikasi.",
+    "Revisi konten gratis jika ada kesalahan informasi.",
+    "Penghapusan artikel atas permintaan penulis atau narasumber."
+  ]
+  area_served = [
+    "Lampung",
+    "Bengkulu",
+    "Jambi",
+    "Sumatra Selatan",
+    "Sumatra Barat"
+  ]
+  service_output = "Blog ini membantu Anda menemukan inspirasi, solusi, dan informasi terbaru seputar desain plafon dan dinding untuk hunian maupun bisnis."
+
+ # Hero Section
+  hero_image = "/images/admin/bg-hero-bengkulu.jpg"
+  hero_title = "Inspirasi Desain Plafon & Dinding"
+  hero_description = "Temukan ide kreatif, tips renovasi, dan solusi desain plafon serta dinding untuk mempercantik rumah dan ruang usaha Anda. Update artikel setiap minggu!"
+  hero_cta_text = "Baca Inspirasi Terbaru"
+  services_cta_text = "Lihat Daftar Harga"
+
+# Footer Section
+  footer_about_title = "Tentang Blog"
+  footer_about_description = "Blog ini hadir sebagai sumber inspirasi dan informasi seputar desain interior, renovasi, serta produk plafon dan dinding modern. Temukan tips, review, dan solusi terbaik untuk kebutuhan Anda."
+  footer_services_title = "Kategori Populer"
+  footer_contact_title = "Hubungi Redaksi"
+  footer_bottom_text = "@2025 blog.shankarajayaabadi.co.id | All Rights Reserved"
+
+  # Testimonials Section
+  testimonials_title = "Apa Kata Pembaca"
+
+  [[params.footer_services]]
+  text = "Blog kami menyajikan artikel inspiratif, tips renovasi, dan review produk plafon serta dinding untuk membantu Anda mewujudkan interior impian."
+
+  [[params.footer_contact]]
+    icon = "fas fa-map-marker-alt"
+    text = "Jl. Purnawirawan Raya No.90b, Gunung Terang, Kec. Langkapura, Kota Bandar Lampung, Lampung 35145"
+  [[params.footer_contact]]
+    icon = "fas fa-phone-alt"
+    text = "+62 812-7994-7777"
+  [[params.footer_contact]]
+    icon = "fas fa-envelope"
+    text = "redaksi@blog.shankarajayaabadi.co.id"
+
+[[params.testimonials]]
+  avatar = "/images/admin/avatar1.png"
+  name = "Andi"
+  message = "Artikel blog ini sangat membantu saya memahami desain plafon dan dinding yang cocok untuk rumah. Penjelasannya mudah dipahami."
+  response = "Terima kasih atas apresiasinya! Kami akan terus menghadirkan konten bermanfaat untuk pembaca."
+  rating = 5
+
+[[params.testimonials]]
+  avatar = "/images/admin/avatar2.png"
+  name = "Putri"
+  message = "Saya suka dengan inspirasi desain dinding yang dibagikan di blog ini. Banyak ide kreatif yang bisa diterapkan di rumah saya."
+  response = "Senang bisa menginspirasi Anda! Nantikan artikel menarik lainnya setiap minggu."
+  rating = 5
+
+[[params.testimonials]]
+  avatar = "/images/admin/avatar3.png"
+  name = "Rama"
+  message = "Review produk plafon dan wall panel di blog ini sangat detail dan membantu saya memilih produk yang tepat."
+  response = "Terima kasih telah membaca! Kami akan terus memberikan review produk yang informatif."
+  rating = 4
+
+[[params.testimonials]]
+  avatar = "/images/admin/avatar4.png"
+  name = "Sari"
+  message = "Blog ini jadi referensi utama saya untuk mencari solusi desain interior modern."
+  response = "Kami senang bisa menjadi sumber inspirasi Anda. Terima kasih atas dukungannya!"
+  rating = 5
+
+[[params.testimonials]]
+  avatar = "/images/admin/avatar5.png"
+  name = "Bayu"
+  message = "Panduan memilih plafon dan dinding di blog ini sangat membantu, terutama untuk pemula."
+  response = "Terima kasih! Kami akan terus berbagi panduan praktis untuk pembaca."
+  rating = 4
+
+[[params.testimonials]]
+  avatar = "/images/admin/avatar6.png"
+  name = "Dewi"
+  message = "Konten blognya selalu update dan relevan dengan kebutuhan renovasi interior."
+  response = "Kami akan terus menghadirkan konten terbaru dan bermanfaat untuk Anda."
+  rating = 5
+
+[[params.tabelItems]]
+  name = "Inspirasi Plafon Modern"
+  price = "-"
+[[params.tabelItems]]
+  name = "Inspirasi Dinding Estetik"
+  price = "-"
+[[params.tabelItems]]
+  name = "Tips Renovasi Interior"
+  price = "-"
+[[params.tabelItems]]
+  name = "Review Produk Plafon & Dinding"
+  price = "-"
+[[params.tabelItems]]
+  name = "Panduan Memilih Material"
+  price = "-"
+
+[params.appliList]
+  "Inspirasi Plafon Modern" = "ruang tamu, kamar tidur, ruang keluarga"
+  "Inspirasi Dinding Estetik" = "dinding ruang tamu, kamar, kantor"
+  "Tips Renovasi Interior" = "seluruh ruangan rumah, kantor, toko"
+  "Review Produk Plafon & Dinding" = "referensi sebelum membeli produk"
+  "Panduan Memilih Material" = "proyek renovasi, pembangunan baru"
+
+[params.kegunaanList]
+  "Inspirasi Plafon Modern" = "memberikan ide desain plafon terbaru"
+  "Inspirasi Dinding Estetik" = "menambah estetika dan karakter ruangan"
+  "Tips Renovasi Interior" = "membantu proses renovasi lebih efisien"
+  "Review Produk Plafon & Dinding" = "menjadi referensi sebelum membeli produk"
+  "Panduan Memilih Material" = "memudahkan pemilihan material yang tepat"
+
+  # Menu Section
+  [[params.menu_items]]
+    title = "Beranda"
+    url = "/"
+  [[params.menu_items]]
+    title = "Tentang Kami"
+    url = "https://shankarajayaabadi.co.id/profile/"
+  [[params.menu_items]]
+    title = "Harga & Katalog"
+    url = "https://shankarajayaabadi.co.id/daftar-harga/"
+
+[params.header]
+   title = "Blog Inspirasi Desain Interior Plafon dan Dinding | "
+   highlight = "SHANKARA JAYA ABADI"
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 3
+
+[related]
+  threshold = 80
+  includeNewer = true
+  toLower = false
+
+[[related.indices]]
+  name = "categories"
+  weight = 100
+
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML", "AMP"]
+
+[outputFormats]
+  [outputFormats.AMP]
+    mediaType = "text/html"
+    baseName = "amp/index"
+    path = ""
+    isPlainText = false
+    permalinkable = true
+    rel = "amphtml"
